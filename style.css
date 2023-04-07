@@ -44,9 +44,11 @@ input{
 
 }
 .thumbnail{
-    height:350px;
-    width:150px;
+    height:30%;
+    width:70%;
     border-radius: 19px;  
+    object-fit: fill;
+    object-position: 2px 2px 2px 2px;
 }
 .column{
     float:left;
